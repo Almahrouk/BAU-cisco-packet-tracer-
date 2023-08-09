@@ -1,0 +1,68 @@
+Cisco Modes Types:
+
++===========================================================+
+|                    Cisco Modes Types                      |
++===========================================================+
+|          Mode             |        Identification         |
++===========================+===============================+
+| User exec                 |   Router>                     |
+|-----------------------------------------------------------|
+|Privillege exec            |   Router#                     |
+|-----------------------------------------------------------|
+|Global Configuration (GC)  |   Router(config)#             |
+|-----------------------------------------------------------|
+|GC Interface               |   Router(config-if)#          |
+|-----------------------------------------------------------|
+|GC Sub-Interface           |   Router(config-subif)#       |
+|-----------------------------------------------------------|
+|GC Line                    |   Router(config-line)#        |
+|-----------------------------------------------------------|
+|GC Router                  |   Router(config-router)#      |
+|-----------------------------------------------------------|
+|GC Controller              |   Router(config-controller)#  |
+|-----------------------------------------------------------|
+|GC Map-List                |   Router(config-map-list)#    |
+|-----------------------------------------------------------|
+|GC Map-Class               |   Router(config-map-class)#   |
+|-----------------------------------------------------------|
+|GC IPX-Router              |   Router(config-ipx-router)#  |
+|-----------------------------------------------------------|
+|GC Router-Map              |   Router(config-router-map)#  |
+|===========================================================+
+
+
+=============================================================================
+
+
+
++========+   => enable           =>  +==================+  => config terminal      +==================+
+|  User  |                           | Privillege [end] |                          | Global Config... |
++========+   <= disable / exit   <=  +==================+  <= end / Ctrl+Z / exit  +==================|
+
+
+
+=================================================================
+
+Switch>enable
+Switch#config terminal 
+Enter configuration commands, one per line.  End with CNTL/Z.
+Switch(config)#exit
+Switch#
+%SYS-5-CONFIG_I: Configured from console by console
+
+Switch#exit                                                  
+
+
+
+============================================================
+
+
+
+Switch#exit            => out of all Switch
+
+Switch#disable         => we in Switch >>> Switch>
+
+
+
+
+

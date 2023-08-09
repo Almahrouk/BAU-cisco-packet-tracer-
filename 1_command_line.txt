@@ -1,0 +1,374 @@
+Some command Line :
+
+A] Router­> :
+1]?
+
+
+Switch>?
+Exec commands:
+  connect     Open a terminal connection
+  disable     Turn off privileged commands
+  disconnect  Disconnect an existing network connection
+  enable      Turn on privileged commands
+  exit        Exit from the EXEC
+  logout      Exit from the EXEC
+  ping        Send echo messages
+  resume      Resume an active network connection
+  show        Show running system information
+  ssh         Open a secure shell client connection
+  telnet      Open a telnet connection
+  terminal    Set terminal line parameters
+  traceroute  Trace route to destination
+Switch>
+
+
+Router>?                    [What New?]
+Exec commands:
+  <1-99>      Session number to resume
+Router>
+
+
+PC:
+C:\>?
+Available Commands:
+  ?            Display the list of available commands
+  arp          Display the arp table
+  cd           Displays the name of or changes the current directory.
+  delete       Deletes the specified file from C: directory.
+  dir          Displays the list of files  in C: directory.
+  exit         Quits the CMD.EXE program (command interpreter)
+  ftp          Transfers files to and from a computer running an FTP server.
+  help         Display the list of available commands
+  ide          Starts IoX development environment
+  ioxclient    Command line tool to assist in app development for Cisco IOx
+               platforms
+  ipconfig     Display network configuration for each network adapter
+  ipv6config   Display network configuration for each network adapter
+  js           JavaScript Interactive Interpreter
+  mkdir        Creates a directory.
+  netsh        
+  netstat      Displays protocol statistics and current TCP/IP network
+               connections
+  nslookup     DNS Lookup
+  ping         Send echo messages
+  python       Python Interactive Interpreter
+  quit         Exit Telnet/SSH
+  rmdir        Removes a directory.
+  snmpget      SNMP GET
+  snmpgetbulk  SNMP GET BULK
+  snmpset      SNMP SET
+  ssh          ssh client
+  telnet       Telnet client
+  tracert      Trace route to destination
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+B] Router#:
+*] configure terminal       >>  OR >> conf t
+1] ?
+2] show ?
+3] show ip interface brief   >> OR >> show ip int br
+4] exit                            >> ex
+5] disable                         >> disa
+6] show running-config        
+
+
+
+
+
+Router#?
+Exec commands:
+  <1-99>      Session number to resume
+  auto        Exec level Automation
+  clear       Reset functions
+  clock       Manage the system clock
+  configure   Enter configuration mode
+  connect     Open a terminal connection
+  copy        Copy from one file to another
+  debug       Debugging functions (see also 'undebug')
+  delete      Delete a file
+  dir         List files on a filesystem
+  disable     Turn off privileged commands
+  disconnect  Disconnect an existing network connection
+  enable      Turn on privileged commands
+  erase       Erase a filesystem
+  exit        Exit from the EXEC
+  logout      Exit from the EXEC
+  mkdir       Create new directory
+  more        Display the contents of a file
+  no          Disable debugging informations
+  ping        Send echo messages
+  reload      Halt and perform a cold restart
+  resume      Resume an active network connection
+  rmdir       Remove existing directory
+  send        Send a message to other tty lines
+  setup       Run the SETUP command facility
+  show        Show running system information
+  ssh         Open a secure shell client connection
+  telnet      Open a telnet connection
+  terminal    Set terminal line parameters
+  traceroute  Trace route to destination
+  undebug     Disable debugging functions (see also 'debug')
+  vlan        Configure VLAN parameters
+  write       Write running configuration to memory, network, or terminal
+Router#
+Router#show ip ?
+  access-lists  List access lists
+  arp           IP ARP table
+  bgp           BGP information
+  cache         IP fast-switching route cache
+  cef           Cisco Express Forwarding
+  dhcp          Show items in the DHCP database
+  eigrp         IP-EIGRP show commands
+  interface     IP interface status and configuration
+  nat           IP NAT information
+  nbar          Network-Based Application Recognition
+  ospf          OSPF information
+  protocols     IP routing protocol process parameters and statistics
+  rip           IP RIP show commands
+  route         IP routing table
+  ssh           Information on SSH
+Router#show ip interface ?
+  Dialer            Dialer interface
+  Ethernet          IEEE 802.3
+  FastEthernet      FastEthernet IEEE 802.3
+  GigabitEthernet   GigabitEthernet IEEE 802.3z
+  Loopback          Loopback interface
+  Serial            Serial
+  Tunnel            Tunnel interface
+  Virtual-Access    Virtual Access interface
+  Virtual-Template  Virtual Template interface
+  brief             Brief summary of IP status and configuration
+  |                 Output Modifiers
+  <cr>
+ 
+Router#show ip interface brief
+Interface              IP-Address      OK? Method Status                Protocol 
+FastEthernet0/0        192.168.2.1     YES manual up                    up 
+FastEthernet1/0        unassigned      YES unset  administratively down down 
+Serial2/0              10.0.0.1        YES manual up                    up 
+Serial3/0              unassigned      YES unset  administratively down down 
+FastEthernet4/0        unassigned      YES unset  administratively down down 
+FastEthernet5/0        unassigned      YES unset  administratively down down
+Router#
+
+
+
+
+
+
+Router#show ?
+  aaa             Show AAA values
+  access-lists    List access lists
+  arp             Arp table
+  cdp             CDP information
+  class-map       Show QoS Class Map
+  clock           Display the system clock
+  controllers     Interface controllers status
+  crypto          Encryption module
+  debugging       State of each debugging option
+  dhcp            Dynamic Host Configuration Protocol status
+  file            Show filesystem information
+  flash:          display information about flash: file system
+  flow            Flow information
+  frame-relay     Frame-Relay information
+  history         Display the session command history
+  hosts           IP domain-name, lookup style, nameservers, and host table
+  interfaces      Interface status and configuration
+  ip              IP information
+  line            TTY line information
+  lldp            LLDP information
+  logging         Show the contents of logging buffers
+  login           Display Secure Login Configurations and State
+  ntp             Network time protocol
+  policy-map      Show QoS Policy Map
+  pppoe           PPPoE information
+  privilege       Show current privilege level
+  processes       Active process statistics
+  protocols       Active network routing protocols
+  queue           Show queue contents
+  queueing        Show queueing configuration
+  running-config  Current operating configuration
+  sessions        Information about Telnet connections
+  snmp            snmp statistics
+  ssh             Status of SSH server connections
+  standby         standby configuration
+  startup-config  Contents of startup configuration
+  tcp             Status of TCP connections
+  tech-support    Show system information for Tech-Support
+  terminal        Display terminal configuration parameters
+  users           Display information about terminal lines
+  version         System hardware and software status
+Router#show 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Router­(co­nfig)#
+
+1] hostname [New_Name]
+2] interface fa0/1
+3] ?
+4] interface FastEthernet0/0     OR   fa0/0
+
+
+
+
+
+Router(config)#?
+Configure commands:
+  aaa                Authentication, Authorization and Accounting.
+  access-list        Add an access list entry
+  banner             Define a login banner
+  bba-group          Configure BBA Group
+  boot               Modify system boot parameters
+  cdp                Global CDP configuration subcommands
+  class-map          Configure Class Map
+  clock              Configure time-of-day clock
+  config-register    Define the configuration register
+  crypto             Encryption module
+  default            Set a command to its defaults
+  do                 To run exec commands in config mode
+  dot11              IEEE 802.11 config commands
+  enable             Modify enable password parameters
+  end                Exit from configure mode
+  exit               Exit from configure mode
+  flow               Global Flow configuration subcommands
+  hostname           Set system's network name
+  interface          Select an interface to configure
+  ip                 Global IP configuration subcommands
+  ipv6               Global IPv6 configuration commands
+  key                Key management
+  license            Configure license features
+  line               Configure a terminal line
+  lldp               Global LLDP configuration subcommands
+  logging            Modify message logging facilities
+  login              Enable secure login checking
+  mac-address-table  Configure the MAC address table
+  no                 Negate a command or set its defaults
+  ntp                Configure NTP
+  parameter-map      parameter map
+  parser             Configure parser
+  policy-map         Configure QoS Policy Map
+  port-channel       EtherChannel configuration
+  priority-list      Build a priority list
+  privilege          Command privilege parameters
+  queue-list         Build a custom queue list
+  router             Enable a routing process
+  secure             Secure image and configuration archival commands
+  security           Infra Security CLIs
+  service            Modify use of network based services
+  snmp-server        Modify SNMP engine parameters
+  spanning-tree      Spanning Tree Subsystem
+  tacacs-server      Modify TACACS query parameters
+  username           Establish User Name Authentication
+  vpdn               Virtual Private Dialup Network
+  vpdn-group         VPDN group configuration
+  zone               FW with zoning
+  zone-pair          Zone pair command
+Router(config)#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1] Changing switch hostname :
+
+	Switch­(co­nfig)# hostname SW1      >>>> SW­(co­nfig)#
+
+**************************************************************************
+Switch>
+Switch>enable
+Switch#config terminal 
+Enter configuration commands, one per line.  End with CNTL/Z.
+Switch(config)#ho qq
+qq(config)#host
+qq(config)#hostname sw1
+sw1(config)#
+sw1#
+
+
+
+
+
+sw1>enable
+sw1#config terminal 
+Enter configuration commands, one per line.  End with CNTL/Z.
+sw1(config)#interface fa0/1
+sw1(config-if)#
+
+
+
+
+
+
+
+
+***********************************************************
+
+D] Router(config-if)#   :
+1] ?
+2] ip address {IP Address} {Subnet Mask}    >>>>  ip address 192.168.2.1 255.255.255.0            
+
+
+Router(config-if)#?
+  arp                Set arp type (arpa, probe, snap) or timeout
+  bandwidth          Set bandwidth informational parameter
+  cdp                CDP interface subcommands
+  channel-group      Add this interface to an Etherchannel group
+  crypto             Encryption/Decryption commands
+  custom-queue-list  Assign a custom queue list to an interface
+  delay              Specify interface throughput delay
+  description        Interface specific description
+  duplex             Configure duplex operation.
+  exit               Exit from interface configuration mode
+  fair-queue         Enable Fair Queuing on an Interface
+  hold-queue         Set hold queue depth
+* ip                 Interface Internet Protocol config commands
+  lldp               LLDP interface subcommands
+  mac-address        Manually set interface MAC address
+  mtu                Set the interface Maximum Transmission Unit (MTU)
+  no                 Negate a command or set its defaults
+  pppoe              pppoe interface subcommands
+  pppoe-client       pppoe client
+  priority-group     Assign a priority group to an interface
+  service-policy     Configure QoS Service Policy
+  shutdown           Shutdown the selected interface
+  speed              Configure speed operation.
+  standby            HSRP interface configuration commands
+  tx-ring-limit      Configure PA level transmit ring limit
+  zone-member        Apply zone name
